@@ -30,7 +30,7 @@ public class RepeticaoController {
 		String retorno = "";
 		
 		for (Integer index = 1; index <= numero; index++){
-			retorno = retorno + index.toString();
+			retorno += index.toString();
 		}
 		
 		return ResponseEntity.ok(retorno);
